@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
 class AppStrings {
-  static const kTitle = 'Expense Bud';
+  static const kTitle = 'Expense Tracker';
   static const kPrivacyPolicyUrl =
-      "https://github.com/Iamstanlee/expense_bud/wiki/Privacy-Policy";
+      "https://github.com/Iamstanlee/expense_tracker/wiki/Privacy-Policy";
   static const kFeedbackUrl =
       "mailto:hey@stanleee.me?subject=Expense%20Bud%20Feedback";
 }
