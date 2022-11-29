@@ -1,9 +1,10 @@
 // import 'package:expense_bud/features/settings/data/datasources/user_preference_local_datasource.dart';
-// import 'package:expense_bud/features/settings/data/mappers/user_preference_mapper.dart';
-// import 'package:expense_bud/features/settings/domain/entities/user_preference.dart';
+
 // import 'package:expense_bud/core/failure/failure.dart';
 // import 'package:dartz/dartz.dart';
-// import 'package:expense_bud/features/settings/domain/repositories/user_preference_repository.dart';
+
+// import '../domain/entities/user_preference.dart';
+
 
 // class UserPreferenceRepository implements IUserPreferenceRepository {
 //   final IUserPreferenceLocalDataSource _localDataSource;
