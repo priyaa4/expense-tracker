@@ -1,14 +1,19 @@
 
 // import 'package:expense_bud/config/theme.dart';
+// import 'package:expense_bud/core/util/extensions.dart';
 
 // import 'package:expense_bud/core/widgets/button.dart';
 // import 'package:expense_bud/core/widgets/gap.dart';
+// import 'package:expense_bud/features/settings/domain/entities/user_preference.dart';
+// import 'package:expense_bud/features/settings/presentation/providers/settings_provider.dart';
 
 // import 'package:flutter/cupertino.dart';
 // import 'package:flutter/material.dart';
 // import 'package:package_info_plus/package_info_plus.dart';
 // import 'package:phosphor_flutter/phosphor_flutter.dart';
 // import 'package:provider/provider.dart';
+
+// import '../../../config/constant.dart';
 
 // class SettingsPage extends StatefulWidget {
 //   const SettingsPage({Key? key}) : super(key: key);
@@ -237,7 +242,7 @@
 //     return Material(
 //       color: Colors.white,
 //       child: Padding(
-//         padding: const EdgeInsets.all(Insets.lg),
+//         padding: const EdgeInsets.all(Insets.lg),  
 //         child: Column(
 //           mainAxisSize: MainAxisSize.min,
 //           children: [
