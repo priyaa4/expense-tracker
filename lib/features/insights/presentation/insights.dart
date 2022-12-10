@@ -13,6 +13,7 @@ import '../../../config/theme.dart';
 import '../../../core/widgets/gap.dart';
 import '../../../core/widgets/state.dart';
 import '../../settings/presentation/providers/settings_provider.dart';
+import 'insight_expense_item.dart';
 import 'insight_header.dart';
 
 class InsightsPage extends StatefulWidget {
