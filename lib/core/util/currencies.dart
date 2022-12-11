@@ -1,3 +1,5 @@
+import '../../features/settings/domain/entities/currency.dart';
+
 const usd = CurrencyEntity(name: 'USD', locale: "en_US", symbol: "\u0024");
 const eur = CurrencyEntity(name: 'EUR', locale: "en_EU", symbol: "\u20AC");
 const gbp = CurrencyEntity(name: 'GBP', locale: "en_GB", symbol: "\u00A3");
