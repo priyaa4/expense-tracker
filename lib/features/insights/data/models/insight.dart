@@ -1,3 +1,5 @@
+import 'package:expense_bud/core/data/mappers/expense.dart';
+
 import '../../../../core/data/models/expence.dart';
 import '../../domain/entities/insight.dart';
 
