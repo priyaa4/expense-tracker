@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:phosphor_flutter/phosphor_flutter.dart';
 import 'package:provider/provider.dart';
 
+import '../../features/expence/presentation/expenses.dart';
 import '../../features/insights/presentation/insights.dart';
+import '../../features/settings/presentation/settings.dart';
 
 class AppPage extends StatefulWidget {
   const AppPage({Key? key}) : super(key: key);

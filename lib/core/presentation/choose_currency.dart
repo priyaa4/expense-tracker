@@ -1,11 +1,17 @@
 import 'package:expense_bud/config/theme.dart';
 import 'package:expense_bud/core/presentation/app.dart';
+import 'package:expense_bud/core/util/extensions.dart';
 
 import 'package:flutter/material.dart';
 import 'package:phosphor_flutter/phosphor_flutter.dart';
 import 'package:provider/provider.dart';
 
 import '../../config/constant.dart';
+import '../../features/settings/domain/entities/currency.dart';
+import '../../features/settings/presentation/providers/settings_provider.dart';
+import '../util/currencies.dart';
+import '../widgets/button.dart';
+import '../widgets/gap.dart';
 
 class ChooseCurrencyPage extends StatefulWidget {
   const ChooseCurrencyPage({Key? key}) : super(key: key);
