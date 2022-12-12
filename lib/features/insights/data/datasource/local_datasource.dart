@@ -4,7 +4,8 @@ import 'package:expense_bud/features/insights/domain/entities/insight_period.dar
 import 'package:hive/hive.dart';
 
 import '../../../../core/data/datasource/local_datasource.dart';
-import '../../../../core/data/models/expence.dart';
+
+import '../../../../core/data/models/expense.dart';
 
 abstract class IInsightLocalDataSource {
   Future<InsightModel> getInsightsForPeriod(InsightPeriod period);

@@ -1,7 +1,7 @@
 import 'package:expense_bud/core/domain/entities/expense.dart';
 
 import '../../util/category_items.dart';
-import '../models/expence.dart';
+import '../models/expense.dart';
 
 extension ExpenseModelExtension on ExpenseModel {
   ExpenseEntity toEntity() => ExpenseEntity(

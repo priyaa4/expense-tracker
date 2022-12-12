@@ -1,7 +1,8 @@
 import 'package:hive/hive.dart';
 
 import '../../../../core/data/datasource/local_datasource.dart';
-import '../../../../core/data/models/expence.dart';
+
+import '../../../../core/data/models/expense.dart';
 import '../../../../core/failure/exceptions.dart';
 
 abstract class IExpenseLocalDataSource {
