@@ -21,7 +21,7 @@ class AppImages {
 
 class AppColors {
   static Color get kScaffold => const Color(0xFFFFFFFF);
-  static Color get kPrimary => const Color(0xFF5ECE9A);
+  static Color get kPrimary => const Color.fromARGB(255, 178, 149, 221);
   static Color get kPrimary500 => const Color(0xFF059E53);
   static Color get kDark => const Color(0xFF111418);
   static Color get kError => const Color(0xFFFE1B02);
